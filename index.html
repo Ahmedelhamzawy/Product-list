@@ -1,0 +1,83 @@
+<html>
+    <head>
+ <link rel="stylesheet" href="bootstrap.min.css">
+ <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="m-auto w-75 p-5">
+          <h1 class="mb-5 text-center">Products list</h1>
+            <div class="form-group">
+
+                <input type="text" name="" placeholder="enter product name" class="form-control" id="productName">
+
+            </div>
+            
+            <div class="form-group">
+
+                <input type="text" name="" placeholder="enter product category" class="form-control" id="ProductCategory">
+
+            </div>
+            <div class="form-group">
+
+                <input type="text" name="" placeholder="enter product price" class="form-control" id="productPrice">
+             
+
+            </div>
+            <div id="alert" class="text-danger">
+                <p>all inputs are required</p>
+             </div>
+
+            <button class="btn btn-info" id="addBtn">Submit</button>
+            
+        </div> 
+        
+        <input class="form-control my-5 w-50 mx-auto" onkeyup="search(this.value)" type="text" placeholder="search by name" name="" id="">
+       <table class="table table-striped mt-5 w-50 mx-auto text-white text-center">
+
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Product Name</th>
+                    <th>Product Category</th>
+                    <th>Product Price</th>
+                 
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="data">
+                
+            </tbody>
+        </table> 
+
+<!-- 
+        <form action="">
+        <table>
+            <tr>
+            <td>
+            <label for="">Name</label>
+            </td>
+            <td>
+            <input type="text" name="" placeholder="enter your name" id=""> <br>
+        </td>
+            </tr>
+            <tr>
+                <td>
+            <label for="">password</label>
+        </td>
+        <td>
+            <input type="password" name="" placeholder="enter password" id=""> <br>
+        </td>
+            </tr>
+            <tr>
+                <td>
+            <label for="">email</label>
+        </td>
+        <td>
+            <input type="email" placeholder="enter email">
+        </td>
+        </tr>
+        </table>
+        </form>  -->
+        <script src="main.js"></script>
+    </body>
+</html>
