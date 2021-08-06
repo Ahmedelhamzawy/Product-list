@@ -30,7 +30,7 @@ if(productName.classList.contains("is-valid")&&productCategory.classList.contain
 
     }
 }
-var categoryRejex = /^[A-Z &]{1,16}$/
+var categoryRejex = /^[A-Z][a-z]{2,6}$/
 productCategory.onkeyup=function()
 {
 
