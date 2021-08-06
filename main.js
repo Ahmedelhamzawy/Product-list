@@ -1,20 +1,4 @@
-// function calcPrice(price,profit,taxes,marketing){
-//     var result=price+profit;
-//     var result2=result*taxes;
-//     var result3=result2+marketing;
-//     return result3;
-// }
-// var test=calcPrice(23,4,7,2);
-// console.log(test);
-// function sayHello(name){
-//     return name;
-// }doc
-// var test2=sayHello('hamzawy')
-// console.log(test2);
-// var userName="Ahmed sayed elhamzawy"
-// console.log(userName.slice(2,6));
-// console.log(userName.substring(2,6));
-// console.log(userName.substr(2,6));
+
 var productArray = []
 var addBtn = document.getElementById('addBtn');
 var productName = document.getElementById('productName');
@@ -200,16 +184,3 @@ alert.add("d-none");
 return true;
 }
 }
-/*var friends=["ahmed","mohamed","khaled","qadry","boody"];
-console.log(friends.length);
-console.log(friends.indexOf("qadry"));
-console.log(friends.includes("mohamed"));
-friends.shift()
-friends.unshift("sameh");
-console.log(friends);
-friends.pop();
-console.log(friends)
-friends.splice(0,3);
-console.log(friends)
-friends.splice(1,0,"ahmed","shady","essam");
-console.log(friends)  */
